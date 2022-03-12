@@ -1,0 +1,35 @@
+header, #about, #menu-header, #menu, #portfolio,#contact, footer{
+    font-family: Lucida Sans, sans-serif;
+}
+header h1, #about .about-subtitle, #menu-header h1{
+    font-family: Lucida Handwriting, cursive
+}
+header .bg-image {
+    background-image: url('../images/banner-bg.jpg');
+    height: 650px;
+}
+.mask {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#menu-header .bg-image {
+    background-image: url('../images/menu-bg.jpg');
+    height: 350px;
+}
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+.footer-links {
+    background-color: pink
+}
+
